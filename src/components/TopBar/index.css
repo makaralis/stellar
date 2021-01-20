@@ -1,0 +1,15 @@
+.topbar-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #f7f7f7;
+    border-radius: 4px 4px 0 0;
+    color: #636363;
+}
+
+.topbar-btn {
+    padding: 5px 23px;
+    margin: 19px 0;
+    border: none;
+    background-color: #f7f7f7;
+}
