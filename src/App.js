@@ -1,5 +1,5 @@
 import './App.css';
-import {Header, Block, TopBar} from './components'
+import {Header, Block, TopBar, IntroBlock} from './components'
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
         <div className="main-block">
           <TopBar/>
           <Block>
+            <IntroBlock/>
           </Block>
           <Block>
 

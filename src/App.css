@@ -3,9 +3,9 @@ body {
   padding: 0;
   min-height: 1000px;
   background-color: #935d8c;
-  color: rgba(255, 255, 255, 0.65);
   background: linear-gradient(180deg, #e37682 15%, #5f4d93 85%);
   font-size: 20px;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 body h1, h2, div, p {
@@ -13,6 +13,7 @@ body h1, h2, div, p {
 }
 
 .main-block-wrapper {
+  color: #807e7e;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,6 +21,15 @@ body h1, h2, div, p {
 
 .main-block {
   background-color: white;
-  width: 80%;
+  width: 85%;
   border-radius: 4px;
 }
+
+p {
+  font-size: large;
+}
+
+h2 {
+  font-size: 2em;
+}
+

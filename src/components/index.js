@@ -1,3 +1,6 @@
 export { default as Block } from './Block'
 export { default as Header } from './Header'
 export { default as TopBar } from './TopBar'
+export { default as IntroBlock } from './IntroBlock'
+export { default as LearnMoreBtn } from './LearnMoreBtn'
+export { default as GradientLine } from './GradientLine'

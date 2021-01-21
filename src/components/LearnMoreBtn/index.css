@@ -1,0 +1,17 @@
+.learn-more-btn {
+    padding: 10px 23px;
+    margin: 19px 0;
+    cursor: pointer;
+    text-align: center;
+    font-size: 100%;
+    font: inherit;
+    border-radius: 6px;
+    border: 0.5px solid #dddddd;
+    background-color: white;
+    width: 9.25em;
+}
+
+.learn-more-btn:hover {
+    background-color: #eeeeee;
+    border-radius: 6px;
+}

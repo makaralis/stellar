@@ -1,0 +1,21 @@
+.intro-block-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.intro-txt-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.phone-img {
+    padding: 10px;
+    border-radius: 100%;
+    width: 16em;
+    border: 0.5px solid #dddddd;
+    margin-left: 4em;
+}
+
+p {
+    margin-bottom: 25px;
+}
