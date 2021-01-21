@@ -1,5 +1,5 @@
 import './App.css';
-import {Header, Block, TopBar, IntroBlock} from './components'
+import {Header, Block, NavBar, IntroBlock, FirstSectionBlock} from './components'
 
 function App() {
   return (
@@ -7,12 +7,12 @@ function App() {
       <Header></Header>
       <div className="main-block-wrapper">
         <div className="main-block">
-          <TopBar/>
+          <NavBar/>
           <Block>
             <IntroBlock/>
           </Block>
           <Block>
-
+            <FirstSectionBlock/>
           </Block>
           <Block>
 

@@ -1,0 +1,46 @@
+.fst-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    margin-inline-start: 37.3px;
+    align-items: center;
+    text-align: center;
+}
+
+.fst-feature {
+    margin-inline-start: 0;
+}
+
+.border-outside {
+    border-radius: 100%;
+    border: 0.5px solid #dddddd;
+    padding: 10px;
+}
+
+.border-inside {
+    border-radius: 100%;
+    border: 0.5px solid #dddddd;
+}
+
+.features img {
+    width: 5em;
+    padding: 50px;
+}
+
+.paragraph {
+    line-height: 1.6;
+}
+
