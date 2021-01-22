@@ -4,11 +4,11 @@ import GradientLine from '../GradientLine'
 import LearnMoreBtn from '../LearnMoreBtn'
 
 function SecondSectionBlock() {
-    const itemsList = [{ src: '/share.png', alt: 'share', num: '5,120'}, 
-    { src: '/folder.png', alt: 'folder', num: '8,192'}, 
-    { src: '/graph.png', alt: 'graph', num: '2,048'},
-    { src: '/pc.png', alt: 'pc', num: '4,096'},
-    { src: '/diamondWhite.png', alt: 'diamond', num: '1,024'}]
+    const itemsList = [{ src: '/share.png', alt: 'share', num: '5,120', title: 'Etiam'}, 
+    { src: '/folder.png', alt: 'folder', num: '8,192', title: 'Magna'}, 
+    { src: '/graph.png', alt: 'graph', num: '2,048', title: 'Tempus'},
+    { src: '/pc.png', alt: 'pc', num: '4,096', title: 'Aliquam'},
+    { src: '/diamondWhite.png', alt: 'diamond', num: '1,024', title: 'Nullam'}]
 
     return (
         <div className="scnd-section-wrapper">
@@ -25,7 +25,8 @@ function SecondSectionBlock() {
                                 alt={item.alt}
                             >
                             </img>
-                            <p>{item.num}</p>
+                            <p className="num">{item.num}</p>
+                            <p className="title">{item.title}</p>
                         </div>
                     )
                 })}

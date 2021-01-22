@@ -19,6 +19,7 @@
     background-color: pink;
     border-radius: 6px;
     margin-bottom: 25px;
+    color: white;
 }
 
 .item {
@@ -35,15 +36,12 @@
     padding-bottom: 3px;
 }
 
-.item p {
+.num {
     font-size: 1.5em;
-    color: white;
+    margin: 0;
 }
 
 .p-container {
-    display: flex;
-    font-display: row;
-    align-items: center;
     width: 80%;
 } 
 
