@@ -1,5 +1,5 @@
 import './App.css';
-import {Header, Block, NavBar, IntroBlock, FirstSectionBlock} from './components'
+import {Header, Block, NavBar, IntroBlock, FirstSectionBlock, SecondSectionBlock} from './components'
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
             <FirstSectionBlock/>
           </Block>
           <Block>
-
+            <SecondSectionBlock/>
           </Block>
           <Block>
 

@@ -1,0 +1,56 @@
+.scnd-header {
+    font-size: 1.5rem;
+    width: 75%;
+}
+
+.scnd-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.menu-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    background-color: pink;
+    border-radius: 6px;
+    margin-bottom: 25px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.item img {
+    width: 3em;
+    padding: 50px;
+    padding-bottom: 3px;
+}
+
+.item p {
+    font-size: 1.5em;
+    color: white;
+}
+
+.p-container {
+    display: flex;
+    font-display: row;
+    align-items: center;
+    width: 80%;
+} 
+
+.content {
+    columns: 20em 2;
+    column-gap: 2em;
+    text-align: justify;
+} 
+
+
