@@ -34,3 +34,107 @@ h2 {
   font-size: 2em;
 }
 
+footer {
+  padding: 5em;
+  margin: 0 2em 3em 2em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}
+
+.left-section, .right-section {
+  width: calc(50% - 2em);
+  margin-left: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: initial;
+}
+
+dl {
+  margin: 0 0 2em 0;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+dt {
+  display: block;
+  width: 3em;
+  margin: 0;
+  clear: left;
+  float: left;
+  font-weight: bold;
+}
+
+dd {
+  margin: 0 0 0.85em 5.5em;
+}
+
+.email, .copyright a{
+  transition: color 0.2s ease, border-bottom 0.2s ease;
+  text-decoration: none;
+  border-bottom: dotted 1px;
+  color: inherit;
+  cursor: pointer;
+}
+
+.email:hover, .copyright a:hover {
+  border-bottom: none;
+  color: white;
+}
+
+.left-section p,  dd {
+  color: rgb(170, 169, 169);
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  list-style: none;
+  padding-left: 0;
+}
+
+.icon {
+  padding-left: 1.3em;
+  border-radius: 90%;
+  border: 0.5px solid rgb(170, 169, 169);
+  padding: 12px;
+  margin-left: 10px;
+  height: 1.2em;
+  width: 1.2em;
+}
+
+.first-icon {
+  margin: 0;
+}
+
+.icon:hover {
+  background-color: rgba(151, 151, 151, 0.513);
+}
+
+.icon-img {
+  height: 1.2em;
+  width: 1.2em;
+}
+
+.first-icon-img {
+  height: 1.19em;
+  width: 1.19em;
+}
+
+.copyright {
+  color:  rgb(170, 169, 169);
+  width: 100%;
+  margin: 2.5em 0 2em 0;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+/* .icon a:hover {
+  background-color: rgb(170, 169, 169);
+} */
